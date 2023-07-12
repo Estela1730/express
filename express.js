@@ -7,5 +7,5 @@ app.get('/', (req, res) => {
 })
 
 app.listen(port, () => {
-  console.log(`Ejemplo de como hacer un express' ${port}`)
+  console.log(`Example app listening on port ${port}`)
 })
